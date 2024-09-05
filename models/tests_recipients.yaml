@@ -1,0 +1,15 @@
+models:
+- name: class_stg
+  columns:
+  - name: class
+    data_tests:
+    - not_empty
+    - not_null
+  - name: character_id
+    data_tests:
+    - not_null
+- name: inventory_cost_stg
+  columns:
+    - name: cost
+      data_tests:
+      - not_null

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: mysources
+    description: This is a documentation for the source section
+    database: dbt-bigquery-432917  
+    schema: fantasy  
+    tables:
+      - name: characters
+        description: This is a documentation for character model
+        identifier: characters
+      - name: inventory
+        identifier: inventory
+        description: "{{doc('doc_blocks1')}}"
+      - name: items
+        identifier: items
+        description: "{{doc('doc_blocks2')}}"
+     
