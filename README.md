@@ -1,20 +1,16 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-# dbt-bigquery
-# dbt-bigquery
-# dbt-bigquery
-# dbt-bigquery
-# dbt-bigquery
+Hi, I am Abdulshakur.
+This Repository is used for hands-on practice on learning dbt
+I learnt from the youtube playlist: https://youtube.com/playlist?list=PLc2EZr8W2QIBegSYp4dEIMrfLj_cCJgYA&si=Zixv8tGQ7mYlZjfZ
+I learnt the following concepts in dbt with many hands-on practice
+- models
+- Jinja templates
+- test -> - writing specific tests
+          - writing generic tests
+- materializatios -> - Table
+                     - View
+                     - Ephemeral
+                     - Incremental
+- snapshots
+- analyses
+- structuring my projects into stages and marts
+- documentation in dbt
